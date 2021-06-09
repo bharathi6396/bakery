@@ -9,9 +9,9 @@ class Onglet extends React.Component{
         return (
               <Button
               variant="outline-dark"
-            
+              onClick =  {this.props.onClick}
               >
-             dgfhgjhkj
+              {this.props.children}
               </Button>
         )
     }
