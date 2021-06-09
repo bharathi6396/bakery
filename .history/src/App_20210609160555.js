@@ -17,8 +17,8 @@ class App extends React.Component {
   }
   render() {
     return(
-    <div className="App">
-    <Onglet
+    <div className="App d-flex ">
+    {/* <Onglet
       isSelected={this.state.activeTab === 'add'}
       onClick={()=> this.setState({activeTab:'add'})}>Add </Onglet>
     <Onglet

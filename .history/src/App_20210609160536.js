@@ -17,8 +17,8 @@ class App extends React.Component {
   }
   render() {
     return(
-    <div className="App">
-    <Onglet
+    <div className="App d-flex ">
+    {/* <Onglet
       isSelected={this.state.activeTab === 'add'}
       onClick={()=> this.setState({activeTab:'add'})}>Add </Onglet>
     <Onglet
@@ -29,7 +29,7 @@ class App extends React.Component {
       onClick={()=> this.setState({activeTab:'pay'})}>Pay </Onglet>
       {/* {this.state.activeTab === 'add' && <Add />}
       {this.state.activeTab === 'list' && <List />}
-      {this.state.activeTab ===  'pay' && <Pay /> } */}
+      {this.state.activeTab ===  'pay' && <Pay /> } */} */}
   </div>
    );
      }
